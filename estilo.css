@@ -23,6 +23,91 @@ header {
     padding: 20px;
     border-radius: 8px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:purple;
+}
+ 
+/* Encabezado */
+header {
+    background-color: purple;
+    color:pink;
+    text-align: center;
+    padding: 30px;
+}
+ 
+/* Secciones */
+.seccion {
+    background-color: pink;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+ 
+/* Sección con imagen y texto en horizontal */
+.especial {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ 
+.imagen img {
+    width: 200px;
+    border-radius: 8px;
+}
+ 
+.texto {
+    flex: 1;
+}
+ 
+/* Pie de página */
+footer {
+    background-color: purple;
+    color:purple
+    text-align: center;
+    padding: 15px;
+}
+table {
+    border-collapse: collapse; /* Une las líneas de la tabla */
+    width: 80%;
+}
+
+ 
+
+th, td {
+    border: 2px solid black; /* Líneas de la tabla */
+    padding: 5px;
+    text-align: center;
+}
+
+ 
+
+th {
+    background-color: purple; /* Color del encabezado */
+    color: pink;
+}
+
+
+.boton {
+  background-color: pink;
+  color: purple;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px;
+  transition: background 0.3s;
+}
+
+.boton:hover {
+  background-color: #2980b9;
+}nav {
+  display: flex;            
+  justify-content: center;  
+  gap:10px;                
+
  
 /* Sección con imagen y texto en horizontal */
 .especial {
